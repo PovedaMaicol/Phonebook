@@ -1,0 +1,88 @@
+.grid-container {
+    width: 100%;
+    list-style: none;
+  
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto-fill);
+    row-gap: 1em;
+    column-gap: 1em;
+    z-index: 1;
+ 
+}
+
+.grid-container li {
+background-color: rgba(238, 241, 219, 0.486);
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+border-radius: 10px;
+
+padding: 10px;
+-webkit-box-shadow: 1px 9px 9px 0px rgba(199,197,199,1);
+-moz-box-shadow: 1px 9px 9px 0px rgba(199,197,199,1);
+box-shadow: 1px 9px 9px 0px rgba(199,197,199,1);
+
+}
+
+.identificador {
+    width: 50px;
+    height: 50px;
+    font-size: 60px;
+    color: rgba(129, 74, 239, 0.354);
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+}
+.grid-container div {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    width: 100%; 
+   
+}
+
+
+.bx-edit {
+    background-color: rgba(255, 166, 0, 0.402);
+    border-radius: 5px;
+    padding: 2px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.borrar {
+    background-color: rgba(255, 0, 0, 0.336);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-info {
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-name {
+    font-weight: 600;
+}
+.contact-number {
+  
+    font-weight: lighter;
+}
+
+.contact-mail {
+    font-size: 10px;
+}
+
+.gmail {
+    font-size: 12px;
+}
+.icons {
+
+}

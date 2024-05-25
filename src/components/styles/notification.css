@@ -1,0 +1,15 @@
+.notification {
+    background-color: hsl(220, 12%, 95%);
+    color: black;
+    border: none;
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+ 
+justify-content: center;
+
+}
